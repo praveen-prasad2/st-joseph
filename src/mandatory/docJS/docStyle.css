@@ -1,0 +1,17 @@
+.videoWrapper {
+	position: relative;
+padding-bottom: 56.25%;
+padding-top: 25px;
+height: 0;
+margin-left: 8rem;
+margin-right: 0rem;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 90%;
+	height: 100%;
+}

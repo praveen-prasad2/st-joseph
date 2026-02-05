@@ -1,0 +1,10 @@
+.bodyNew {margin:0; font-family: Arial, sans-serif; background:#f8fafc; color:#0f172a;}
+.container {max-width:1100px; margin:0 auto; padding:40px 20px;}
+.section {display:grid; grid-template-columns:1fr 1fr; gap:30px; align-items:center; margin-bottom:60px;}
+.section img {width:100%; height:auto; border-radius:10px;}
+.text-block {padding:10px;}
+h2 {margin-top:0;}
+.zigzag-divider {display:block; width:100%; line-height:0;}
+@media(max-width:768px) {
+  .section {grid-template-columns:1fr;}
+}
