@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.42be7838.css",
-    "main.js": "/static/js/main.8ee6c7ce.js",
+    "main.js": "/static/js/main.a605dd76.js",
     "static/js/787.93c472bf.chunk.js": "/static/js/787.93c472bf.chunk.js",
     "static/media/transport.jpg": "/static/media/transport.5ffc2976599e1325c38b.jpg",
+    "static/media/7 Self Declaration.pdf": "/static/media/7 Self Declaration.096f806e3a44185042cb.pdf",
     "static/media/lib.jpg": "/static/media/lib.f96ddd1e2c3bbb1d9921.jpg",
     "static/media/Sciencelab.jpg": "/static/media/Sciencelab.cf9c7c2ba86e201ef677.jpg",
     "static/media/IMG_9.JPG": "/static/media/IMG_9.bb04073e54675673c106.JPG",
@@ -22,12 +23,11 @@
     "static/media/9 FEE STRUCTURE OF THE SCHOOL.pdf": "/static/media/9 FEE STRUCTURE OF THE SCHOOL.2e2a8f97537b31695d53.pdf",
     "static/media/10 ANNUAL ACADEMIC CALENDER.pdf": "/static/media/10 ANNUAL ACADEMIC CALENDER.1327eb87559a4ab67d4a.pdf",
     "static/media/ACADEMIC_CALENDER.pdf": "/static/media/ACADEMIC_CALENDER.1327eb87559a4ab67d4a.pdf",
+    "static/media/5 COPY OF VALID BUILDING SAFETY CERTIFICATE.pdf": "/static/media/5 COPY OF VALID BUILDING SAFETY CERTIFICATE.d4679838fbf490cb7b73.pdf",
     "static/media/CocurricularNew.jpg": "/static/media/CocurricularNew.a6273318b486f79397c4.jpg",
     "static/media/4 COPIES OF RECOGNITION CERTIFICATE UNDER RTE ACT, 2009.pdf": "/static/media/4 COPIES OF RECOGNITION CERTIFICATE UNDER RTE ACT, 2009.de3ccb923bd4f810ccaa.pdf",
-    "static/media/5 COPY OF VALID BUILDING SAFETY CERTIFICATE.pdf": "/static/media/5 COPY OF VALID BUILDING SAFETY CERTIFICATE.55582ff500d94898bcc8.pdf",
     "static/media/playGroundView.jpeg": "/static/media/playGroundView.8d352bd9221b215d637a.jpeg",
     "static/media/16 LIST OF STAFFS.pdf": "/static/media/16 LIST OF STAFFS.ab953cc7ab0622c19b21.pdf",
-    "static/media/7 Self Declaration.pdf": "/static/media/7 Self Declaration.725b681ac6e982ac371c.pdf",
     "static/media/slider3.jpg": "/static/media/slider3.7af1feb97bc3543131bc.jpg",
     "static/media/sportsNew.jpg": "/static/media/sportsNew.a5d70998cb09c71b9b3d.jpg",
     "static/media/computerlab.jpg": "/static/media/computerlab.e18cdd6059aedf74738d.jpg",
@@ -55,11 +55,11 @@
     "static/media/schoolNameonly.png": "/static/media/schoolNameonly.3c3ba21c914521dc563e.png",
     "index.html": "/index.html",
     "main.42be7838.css.map": "/static/css/main.42be7838.css.map",
-    "main.8ee6c7ce.js.map": "/static/js/main.8ee6c7ce.js.map",
+    "main.a605dd76.js.map": "/static/js/main.a605dd76.js.map",
     "787.93c472bf.chunk.js.map": "/static/js/787.93c472bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.42be7838.css",
-    "static/js/main.8ee6c7ce.js"
+    "static/js/main.a605dd76.js"
   ]
 }
