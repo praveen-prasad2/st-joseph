@@ -9,7 +9,7 @@ import './docStyle.css'
 function DocOne() {
 
     const docs = [
-        { uri: require("../../assets/files/Primary/DEO7.pdf"),
+        { uri: require("../../assets/files/Primary/7 Self Declaration.pdf"),
         fileName: '7. THE SELF CERTIFICATION SUBMITTED BY THE SCHOOL FOR AFFILIATION/UPGRADATION', } // Local File
       ];
 

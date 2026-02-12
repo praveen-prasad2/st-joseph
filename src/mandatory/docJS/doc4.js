@@ -9,7 +9,7 @@ import './docStyle.css'
 function DocOne() {
 
     const docs = [
-        { uri: require("../../assets/files/Primary/Recognition4.pdf"),
+        { uri: require("../../assets/files/Primary/4 COPIES OF RECOGNITION CERTIFICATE UNDER RTE ACT, 2009.pdf"),
         fileName: '4. RECOGNITION CERTIFICATE UNDER RTE ACT, 2009', } // Local File
       ];
 

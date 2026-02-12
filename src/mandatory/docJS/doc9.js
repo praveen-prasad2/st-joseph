@@ -1,24 +1,34 @@
-import oneDoc from '../../assets/files/Primary/Fees9.docx';
+
 import Header from '../../home/Header';
 import Footer from '../../home/Footer';
-
+import DocViewer, { DocViewerRenderers } from "@cyntler/react-doc-viewer";
 
 import './docStyle.css'
 
 
 function DocOne() {
 
-   
+    const docs = [
+        { uri: require("../../assets/files/Primary/9 FEE STRUCTURE OF THE SCHOOL.pdf"),
+        fileName: '9. FEE STRUCTURE OF THE SCHOOL', } // Local File
+      ];
 
   return (<>
     <Header />
     {/* <a classNameName="navbar-brand" href="/" style={{marginLeft:'15px'}}> <img src={logo} width="65" height="65" alt="logo" /></a> */}
     <a classNameName="navbar-brand" href="/mandatory" style={{color:'#fff'}}><button type="button" className="btn btn-info btn-block" >Back</button></a>
-   <div className='videoWrapper'>     
-<iframe src={oneDoc} className="responsive-iframe" style={{border:"0"}} allowfullscreen title='AFFILIATION/UPGRADATION LETTER' loading="lazy" 
+    
+    <DocViewer
+      documents={docs}
+     // initialActiveDocument={docs[0]}
+      pluginRenderers={DocViewerRenderers}
+    />
+
+   {/* <div className='videoWrapper'>     
+<iframe src={oneDoc} className="responsive-iframe" style={{border:"0"}} allowfullscreen title='AFFILIATION/UPGRADATION LETTER' 
 //referrerpolicy="no-referrer-when-downgrade"
 ></iframe>
-</div>
+</div> */}
 <Footer/>
   
 </>
@@ -27,5 +37,3 @@ function DocOne() {
 }
 
 export default DocOne;
-
-

@@ -9,7 +9,7 @@ import './docStyle.css'
 function DocOne() {
 
     const docs = [
-        { uri: require("../../assets/files/Primary/AcademicCalender10.pdf"),
+        { uri: require("../../assets/files/Primary/10 ANNUAL ACADEMIC CALENDER.pdf"),
         fileName: '10. ANNUAL ACADEMIC CALENDER', } // Local File
       ];
 

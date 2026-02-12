@@ -9,7 +9,7 @@ import './docStyle.css'
 function DocOne() {
 
     const docs = [
-        { uri: require("../../assets/files/Primary/Fire6.pdf"),
+        { uri: require("../../assets/files/Primary/6 COPY OF VALID FIRE SAFETY CERTIFICATE ISSUED.pdf"),
         fileName: '6. FIRE SAFETY CERTIFICATE', } // Local File
       ];
 

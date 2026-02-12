@@ -1,0 +1,30 @@
+
+import Header from '../../home/Header';
+import Footer from '../../home/Footer';
+import DocViewer, { DocViewerRenderers } from "@cyntler/react-doc-viewer";
+
+import './docStyle.css'
+
+
+function DocSixteen() {
+
+    const docs = [
+        { uri: require("../../assets/files/Primary/16 LIST OF STAFFS.pdf"),
+        fileName: '16. LIST OF STAFFS', } // Local File
+      ];
+
+  return (<>
+    <Header />
+    <a className="navbar-brand" href="/mandatory" style={{color:'#fff'}}><button type="button" className="btn btn-info btn-block" >Back</button></a>
+    
+    <DocViewer
+      documents={docs}
+      pluginRenderers={DocViewerRenderers}
+    />
+
+    <Footer/>
+  </>
+  );
+}
+
+export default DocSixteen;

@@ -8,7 +8,7 @@ import './docStyle.css'
 function DocOne() {
 
     const docs = [
-        { uri: require("../../assets/files/Primary/san8.pdf"),
+        { uri: require("../../assets/files/Primary/8 COPIES OF VALID WATER, HEALTH AND SANITATION CERTIFICATES.pdf"),
         fileName: '8. WATER, HEALTH AND SANITATION CERTIFICATES', } // Local File
       ];
 

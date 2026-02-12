@@ -9,7 +9,7 @@ import './docStyle.css'
 function DocOne() {
 
     const docs = [
-        { uri: require("../../assets/files/Primary/NOC3.pdf"),
+        { uri: require("../../assets/files/Primary/3 COPY OF NO OBJECTION CERTIFICATE (NOC) ISSUED.pdf"),
         fileName: '3. OBJECTION CERTIFICATE (NOC) ISSUED CERTIFICATE', } // Local File
       ];
 

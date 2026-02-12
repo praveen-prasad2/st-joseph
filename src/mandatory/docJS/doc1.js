@@ -10,7 +10,7 @@ import './docStyle.css'
 function DocOne({lookup}) {
 
     const docs = [
-        { uri: require("../../assets/files/Primary/grandupg-1.pdf"),
+        { uri: require("../../assets/files/Primary/1 Affiliation.pdf"),
         fileName: '1. AFFILIATION/UPGRADATION LETTER AND RECENT EXTENSION OF AFFILIATION', }, // Local File
       ];
 

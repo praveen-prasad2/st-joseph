@@ -2,6 +2,7 @@
 import './tablestyle.css';
 import TableData from './table.json'
 import Document from './docJS/doc1';
+import { Link } from 'react-router-dom';
 
 function Table() {
   return (
@@ -23,7 +24,12 @@ function Table() {
       <th scope="row" style={{textAlign:'center'}}>{row.sNo}</th>
       <td>{row.name}</td>
       <td style={{textAlign:'center'}}>
-        <a classNameName="navbar-brand" href={row.url} target="_blank" >{row.btnText}</a></td>
+        {row.url.startsWith('http') ? (
+          <a className="navbar-brand" href={row.url} target="_blank" rel="noreferrer">{row.btnText}</a>
+        ) : (
+          <Link className="navbar-brand" to={row.url}>{row.btnText}</Link>
+        )}
+      </td>
       
     </tr>)}
   </tbody>

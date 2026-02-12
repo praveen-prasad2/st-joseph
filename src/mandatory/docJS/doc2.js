@@ -10,7 +10,7 @@ import './docStyle.css'
 function DocOne() {
 
     const docs = [
-        { uri: require("../../assets/files/Primary/TRUST2.pdf"),
+        { uri: require("../../assets/files/Primary/2 Deed of Trust.pdf"),
         fileName: '2. SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL CERTIFICATE', } // Local File
       ];
 

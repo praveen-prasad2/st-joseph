@@ -32,6 +32,7 @@ import DocTen from './mandatory/docJS/doc10';
 import DocEleven from './mandatory/docJS/doc11';
 import DocTwelve from './mandatory/docJS/doc12';
 import DocThirteen from './mandatory/docJS/doc13';
+import DocFourteen from './mandatory/docJS/doc14';
 import DocFifteen from './mandatory/docJS/doc15';
 
 import {
@@ -71,9 +72,11 @@ const router = createBrowserRouter([
   { path: "/DOCFees.html", element: <DocNine/> },
   { path: "/DOCcbsediary.html", element: <DocTen/> },
   { path: "/DOCSMC.html", element: <DocEleven/> },
-  { path: "/DOCPTA.html", element: <DocTwelve/> },
-  { path: "/DOCxResult.html", element: <DocThirteen/> },
-  { path: "/DOCSaras.html", element: <DocFifteen/> }
+  { path: "/DOCResult.html", element: <DocEleven/> },
+  { path: "/DOCInspectionVideo.html", element: <DocTwelve/> },
+  { path: "/DOCSaras.html", element: <DocThirteen/> },
+  { path: "/DOCPTA.html", element: <DocFourteen/> },
+  { path: "/DOCSMC.html", element: <DocFifteen/> }
   
 
 ]);
