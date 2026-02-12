@@ -2,96 +2,112 @@
   {
     "name": "COPIES OF AFFILIATION/UPGRADATION LETTER AND RECENT EXTENSION OF AFFILIATION",
     "url": "/DOCadobe.html",
+    "file": "1 Affiliation.pdf",
     "btnText": "View",
     "sNo": 1
   },
   {
     "name": "COPIES OF SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL CERTIFICATE",
     "url": "/DOClanddoc.html",
+    "file": "2 Deed of Trust.pdf",
     "btnText": "View",
     "sNo": 2
   },
   {
     "name": "COPY OF NO OBJECTION CERTIFICATE (NOC) ISSUED, IF APPLICABLE, BY THE STATE GOVT./UT",
     "url": "/DOCNOC.html",
+    "file": "3 COPY OF NO OBJECTION CERTIFICATE (NOC) ISSUED.pdf",
     "btnText": "View",
     "sNo": 3
   },
   {
     "name": "COPIES OF RECOGNITION CERTIFICATE UNDER RTE ACT, 2009",
     "url": "/DOCRecognition.html",
+    "file": "4 COPIES OF RECOGNITION CERTIFICATE UNDER RTE ACT, 2009.pdf",
     "btnText": "View",
     "sNo": 4
   },
   {
     "name": "COPY OF VALID BUILDING SAFETY CERTIFICATE AS PER THE NATIONAL BUILDING CODE",
     "url": "/DOCBuildingStability.html",
+    "file": "5 COPY OF VALID BUILDING SAFETY CERTIFICATE.pdf",
     "btnText": "View",
     "sNo": 5
   },
   {
     "name": "COPY OF VALID FIRE SAFETY CERTIFICATE ISSUED BY THE COMPETENT AUTHORITY",
     "url": "/DOCFireSafty.html",
+    "file": "6 COPY OF VALID FIRE SAFETY CERTIFICATE ISSUED.pdf",
     "btnText": "View",
     "sNo": 6
   },
   {
     "name": "COPY OF THE SELF CERTIFICATION SUBMITTED BY THE SCHOOL FOR AFFILIATION/UPGRADATION",
     "url": "/DOCDEO.html",
+    "file": "7 Self Declaration.pdf",
     "btnText": "View",
     "sNo": 7
   },
   {
     "name": "COPIES OF VALID WATER, HEALTH AND SANITATION CERTIFICATES",
     "url": "/DOCSanitoryCert.html",
+    "file": "8 COPIES OF VALID WATER, HEALTH AND SANITATION CERTIFICATES.pdf",
     "btnText": "View",
     "sNo": 8
   },
   {
     "name": "FEE STRUCTURE OF THE SCHOOL",
     "url": "/DOCFees.html",
+    "file": "9 FEE STRUCTURE OF THE SCHOOL.pdf",
     "btnText": "View",
     "sNo": 9
   },
   {
     "name": "ANNUAL ACADEMIC CALENDER",
     "url": "/DOCcbsediary.html",
+    "file": "10 ANNUAL ACADEMIC CALENDER.pdf",
     "btnText": "View",
     "sNo": 10
   },
   {
     "name": "LAST THREE-YEAR RESULT OF THE BOARD EXAMINATION AS PER APPLICABILITY",
     "url": "/DOCResult.html",
+    "file": "11 LAST THREE-YEAR RESULT OF THE BOARD EXAMINATION.pdf",
     "btnText": "View",
     "sNo": 11
   },
   {
     "name": "LINK OF YOUTUBE VIDEO OF THE INSPECTION OF SCHOOL COVERING THE INFRASTRUCTURE OF THE SCHOOL",
     "url": "/DOCInspectionVideo.html",
+    "video": "https://www.youtube.com/embed/VF2Qbm7OIYQ",
     "btnText": "Play",
     "sNo": 12
   },
   {
     "name": "SARAS",
     "url": "/DOCSaras.html",
+    "file": "13 SARAS.pdf",
     "btnText": "View",
     "sNo": 13
   },
   {
     "name": "LIST OF PARENTS TEACHERS ASSOCIATION MEMBERS",
     "url": "/DOCPTA.html",
+    "file": "14 LIST OF PARENTS TEACHERS ASSOCIATION (PTA) MEMBERS.pdf",
     "btnText": "View",
     "sNo": 14
   },
   {
     "name": "LIST OF SCHOOL MANAGEMENT COMMITTEE",
     "url": "/DOCSMC.html",
+    "file": "15  LIST OF SCHOOL MANAGEMENT COMMITTEE.pdf",
     "btnText": "View",
     "sNo": 15
   },
   {
     "name": "LIST OF STAFFS",
     "url": "/academic/1",
+    "file": "16 LIST OF STAFFS.pdf",
     "btnText": "View",
     "sNo": 16
   }
