@@ -18,22 +18,6 @@ import SMC from './management/smc';
 import SaftyCommittee from './management/saftyCommittee';
 import Facilities from './facilities';
 import Academic from './academic/index';
-//belows are document components
-import DocOne from './mandatory/docJS/doc1';
-import DocTwo from './mandatory/docJS/doc2';
-import DocThree from './mandatory/docJS/doc3';
-import DocFour from './mandatory/docJS/doc4';
-import DocFive from './mandatory/docJS/doc5';
-import DocSix from './mandatory/docJS/doc6';
-import DocSeven from './mandatory/docJS/doc7';
-import DocEight from './mandatory/docJS/doc8';
-import DocNine from './mandatory/docJS/doc9';
-import DocTen from './mandatory/docJS/doc10';
-import DocEleven from './mandatory/docJS/doc11';
-import DocTwelve from './mandatory/docJS/doc12';
-import DocThirteen from './mandatory/docJS/doc13';
-import DocFourteen from './mandatory/docJS/doc14';
-import DocFifteen from './mandatory/docJS/doc15';
 
 import {
   createBrowserRouter,
@@ -61,22 +45,22 @@ const router = createBrowserRouter([
   { path:"/facilities",element:<Facilities/>},
   { path:"/SaftyCommittee",element:<SaftyCommittee/>},
   { path: "/academic/:id", element: <Academic/>},
-  { path: "/DOCadobe.html", element: <DocOne/> },
-  { path: "/DOClanddoc.html", element: <DocTwo/> },
-  { path: "/DOCNOC.html", element: <DocThree/> },
-  { path: "/DOCRecognition.html", element: <DocFour/> },
-  { path: "/DOCBuildingStability.html", element: <DocFive/> },
-  { path: "/DOCFireSafty.html", element: <DocSix/> },
-  { path: "/DOCDEO.html", element: <DocSeven/> },
-  { path: "/DOCSanitoryCert.html", element: <DocEight/> },
-  { path: "/DOCFees.html", element: <DocNine/> },
-  { path: "/DOCcbsediary.html", element: <DocTen/> },
-  { path: "/DOCSMC.html", element: <DocEleven/> },
-  { path: "/DOCResult.html", element: <DocEleven/> },
-  { path: "/DOCInspectionVideo.html", element: <DocTwelve/> },
-  { path: "/DOCSaras.html", element: <DocThirteen/> },
-  { path: "/DOCPTA.html", element: <DocFourteen/> },
-  { path: "/DOCSMC.html", element: <DocFifteen/> }
+  { path: "/DOCadobe.html", element: <Mandatory/> },
+  { path: "/DOClanddoc.html", element: <Mandatory/> },
+  { path: "/DOCNOC.html", element: <Mandatory/> },
+  { path: "/DOCRecognition.html", element: <Mandatory/> },
+  { path: "/DOCBuildingStability.html", element: <Mandatory/> },
+  { path: "/DOCFireSafty.html", element: <Mandatory/> },
+  { path: "/DOCDEO.html", element: <Mandatory/> },
+  { path: "/DOCSanitoryCert.html", element: <Mandatory/> },
+  { path: "/DOCFees.html", element: <Mandatory/> },
+  { path: "/DOCcbsediary.html", element: <Mandatory/> },
+  { path: "/DOCResult.html", element: <Mandatory/> },
+  { path: "/DOCInspectionVideo.html", element: <Mandatory/> },
+  { path: "/DOCSaras.html", element: <Mandatory/> },
+  { path: "/DOCPTA.html", element: <Mandatory/> },
+  { path: "/DOCSMC.html", element: <Mandatory/> },
+  { path: "/DOCStaffList.html", element: <Mandatory/> }
   
 
 ]);

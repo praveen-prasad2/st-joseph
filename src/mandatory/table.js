@@ -1,19 +1,20 @@
 
-import React, { useState } from 'react';
+import React from 'react';
 import './tablestyle.css';
 import TableData from './table.json'
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { IoClose } from "react-icons/io5";
 import fileMap from '../assets/files/Primary/fileMap';
 
 function Table() {
-  const [selectedDoc, setSelectedDoc] = useState(null);
+  const location = useLocation();
+  const navigate = useNavigate();
 
-  const openModal = (row) => {
-    setSelectedDoc(row);
-  };
+  // Check if current path matches any doc URL
+  const selectedDoc = TableData.find(doc => doc.url === location.pathname);
 
   const closeModal = () => {
-    setSelectedDoc(null);
+    navigate('/mandatory');
   };
 
   return (
@@ -33,13 +34,13 @@ function Table() {
                 <th scope="row" style={{ textAlign: 'center' }}>{row.sNo}</th>
                 <td>{row.name}</td>
                 <td style={{ textAlign: 'center' }}>
-                  <button
+                  <Link
+                    to={row.url}
                     className="btn btn-info"
-                    onClick={() => openModal(row)}
                     style={{ fontSize: '14px', padding: '5px 15px' }}
                   >
                     {row.btnText}
-                  </button>
+                  </Link>
                 </td>
               </tr>
             ))}
@@ -47,7 +48,7 @@ function Table() {
         </table>
       </div>
 
-      {/* Popup Modal */}
+      {/* Popup Modal Overlay */}
       {selectedDoc && (
         <div className="modal-overlay" onClick={closeModal}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
@@ -78,6 +79,8 @@ function Table() {
     </div>
   );
 }
+
+
 
 
 
