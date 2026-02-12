@@ -20,12 +20,12 @@ import Facilities from './facilities';
 import Academic from './academic/index';
 
 import {
-  createHashRouter,
+  createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
 
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   { path: "/", element: <Home/>},
   { path: "/gallery", element: <Gallery/>},
   { path: "/yvideo", element: <Yvideo/>},
